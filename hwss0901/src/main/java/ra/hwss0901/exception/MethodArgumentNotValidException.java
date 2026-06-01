@@ -1,0 +1,7 @@
+package ra.hwss0901.exception;
+
+public class MethodArgumentNotValidException extends RuntimeException {
+    public MethodArgumentNotValidException(String message) {
+        super(message);
+    }
+}
